@@ -4,20 +4,24 @@
     "description": "The Laravel Framework.",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryuya Hirayama",
+            "email": "ryuya.hirayama@fourier.jp"
+        }
+    ],
     "require": {
     },
     "require-dev": {
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app/",
-            "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
+            "Modules\\Example\\": ""
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "Modules\\Example\\Tests\\": "Tests/"
         }
     },
     "extra": {
